@@ -535,6 +535,70 @@ static void establish_params(struct device_info *info)
 		def_root_dir_entries = 112;
 		break;
 
+	    case 800:
+		sec_per_track = 10;
+		heads = 2;
+		media = 0xf9;
+		cluster_size = 2;
+		def_root_dir_entries = 112;
+		break;
+
+	    case 880:
+		sec_per_track = 11;
+		heads = 2;
+		media = 0xf9;
+		cluster_size = 2;
+		def_root_dir_entries = 112;
+		break;
+
+	    case 960:
+		sec_per_track = 12;
+		heads = 2;
+		media = 0xf9;
+		cluster_size = 2;
+		def_root_dir_entries = 112;
+		break;
+
+	    case 996:
+		sec_per_track = 12;
+		heads = 2;
+		media = 0xf9;
+		cluster_size = 2;
+		def_root_dir_entries = 112;
+		break;
+
+	    case 1032:
+		sec_per_track = 12;
+		heads = 2;
+		media = 0xf9;
+		cluster_size = 2;
+		def_root_dir_entries = 112;
+		break;
+
+	    case 1056:
+		sec_per_track = 12;
+		heads = 2;
+		media = 0xf9;
+		cluster_size = 2;
+		def_root_dir_entries = 112;
+		break;
+
+	    case 1920:
+		sec_per_track = 12;
+		heads = 2;
+		media = 0xf9;
+		cluster_size = 2;
+		def_root_dir_entries = 112;
+		break;
+
+	    case 3048:
+		sec_per_track = 12;
+		heads = 2;
+		media = 0xf9;
+		cluster_size = 2;
+		def_root_dir_entries = 112;
+		break;
+
 	    case 1200:
 		sec_per_track = 15;
 		heads = 2;
